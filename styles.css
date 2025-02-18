@@ -3,3 +3,12 @@
     font-family: "Norse bold";
     src: url(./fonts/Norse-Bold.otf);
 }
+
+:root {
+    --header-font: "Norse bold";
+    --text-font: "Roboto";
+}
+
+p {
+    font-family: var(--text-font);
+}
