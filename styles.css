@@ -18,8 +18,12 @@
 .container {
     display: flex;
     flex-direction: row;
+    min-height: 100vh;
 }
 
 .image-section {
     flex: 1 25%;
+    background-image: url(./images/leaf-image.jpg);
+    background-position: center center;
+    background-size: cover;
 }
