@@ -4,11 +4,13 @@
     src: url(./fonts/Norse-Bold.otf);
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --header-font: "Norse bold";
     --text-font: "Roboto";
-}
-
-p {
-    font-family: var(--text-font);
 }
