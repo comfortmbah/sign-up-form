@@ -14,3 +14,12 @@
     --header-font: "Norse bold";
     --text-font: "Roboto";
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-section {
+    flex: 1 25%;
+}
