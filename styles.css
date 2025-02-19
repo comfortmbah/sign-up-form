@@ -22,7 +22,7 @@
 }
 
 .image-section {
-    flex: 1 25%;
+    flex: 1 0 30%;
     background-image: url(./images/leaf-image.jpg);
     background-position: center center;
     background-size: cover;
@@ -44,3 +44,8 @@ h1 {
     font-weight: lighter;
 }
 
+div.main {
+    display: flex;
+    flex-direction: column;
+    margin: 150px 200px 0 25px;
+}
