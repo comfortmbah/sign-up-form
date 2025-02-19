@@ -55,6 +55,9 @@ div.main {
     font-family: var(--text-font);
     font-weight: 400;
     font-size: 1.1rem;
+    margin-left: 25px;
+    margin-top: 80px;
+    margin-right: 150px;
 }
 
 .text-section p:last-child {
@@ -65,4 +68,6 @@ div.main {
 .input-section {
     background-color: white;
     box-shadow: 0 5px 5px 4px rgba(0, 0, 0, 0.1);
+    padding-left: 25px;
+    padding-top: 15px;
 }
