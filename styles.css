@@ -71,3 +71,10 @@ div.main {
     padding-left: 25px;
     padding-top: 15px;
 }
+
+h2 {
+    font-weight: 500;
+    font-size: 1.1rem;
+    font-family: var(--text-font);
+    margin-bottom: 13px;
+}
