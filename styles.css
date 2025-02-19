@@ -47,5 +47,16 @@ h1 {
 div.main {
     display: flex;
     flex-direction: column;
-    margin: 150px 200px 0 25px;
+    margin: 120px 200px 0 25px;
+}
+
+.text-section > p {
+    font-family: var(--text-font);
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.text-section p:last-child {
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
