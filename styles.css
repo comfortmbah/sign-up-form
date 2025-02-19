@@ -47,8 +47,9 @@ h1 {
 div.main {
     display: flex;
     flex-direction: column;
-    margin: 120px 200px 0 25px;
+    background-color: #f9fafb;
 }
+
 
 .text-section > p {
     font-family: var(--text-font);
@@ -59,4 +60,9 @@ div.main {
 .text-section p:last-child {
     margin-bottom: 30px;
     margin-top: 20px;
+}
+
+.input-section {
+    background-color: white;
+    box-shadow: 0 5px 5px 4px rgba(0, 0, 0, 0.1);
 }
