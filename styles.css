@@ -71,7 +71,7 @@ div.main {
 	margin-top: 32px;
 	padding-top: 16px;
 	padding-bottom: 16px;
-	padding-left: 48px;
+	padding-left: 25px;
 	box-shadow: 0 5px 5px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -92,11 +92,32 @@ h2 {
 
 .input-section label {
     display: block;
-    font-size: .7rem;
+    font-size: .6rem;
     letter-spacing: 0.1rem;
     margin-bottom: 2px;
 }
 
 .input-section input {
     width: 100%;
+    border: 2px solid #e5e7eb;
+    padding: 4px 6px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    margin: 15px 0 10px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #596D48;
+    padding: 7px 14px;
+    color: #fff;
+    font-size: .8rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: gray;
+    color: rgba(0, 0, 0);
+    font-weight: bold;
 }
