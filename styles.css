@@ -121,3 +121,18 @@ button:hover {
     color: rgba(0, 0, 0);
     font-weight: bold;
 }
+
+p.login-text {
+    margin-left: 25px;
+    font-family: var(--text-font);
+}
+
+a {
+    color: rgb(19, 128, 128, .9);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #596D48;
+    font-weight: bolder;
+}
